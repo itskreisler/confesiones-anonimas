@@ -42,9 +42,9 @@ if (isset($_GET[$desteStr]) && isset($_GET[$totalStr])) {
             "date_conf" => $row['date_conf'],
             "time_conf" => $row['time_conf'],
             "pais" => $row['pais'],
-            "ip_user" => $row['ip_user']
+            "ip_user" => $row['ip_user'],
         ]);
     }
 }
 
-echo jsonencode(array_key_exists('data', $data) && count($data['data']) == 0 ? ['code' => 404, 'message' => 'No hay más datos para mostrar :)'] : $data);
+echo jsonencode(array_key_exists('data', $data) && count($data['data']) == 0 ? ['code' => 404, 'message' => 'No se encontraron mas confesiones.'] : $data);

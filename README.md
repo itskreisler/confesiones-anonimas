@@ -18,14 +18,22 @@
 3. El panel administrativo su CSS no es mio, uso boostrap asi que no tomo todo el credito pero si de las funciones y el resto de cosas.
 
 **Cosas por hacer**
-- Al momento de publicar una confesion, cada confesion genera una id aleatoria que es con la que se va identificar para hacer futuras funciones, pero falta que esa id verifique que no este ya registrada asi que no olviden hacer esa validacion.
-- La web es casi completamente responsive, solo les toca acomodar un poco el navbar por que se pone algo loco, pero eso se arregla facilmente.
-- Hacer validacion la cual solo pueda hacer una publicacion cada X tiempo para evitar mega spam.
-- Hacer el ajax/javascript/jquery de scroll infinito en las publicaciones ya que actualmente carga todo lo de la base de datos. (Si lo hacen les agradeceria que me manden actualizado para asi subirlo).
 - Configurar bien el archivo .htaccess
+- Hacer sistema reporte de comentario
 
+**ARREGLOS**
+- Se arreglo el modo mantenimiento, ahora funciona como es debido con sus mensajes personalizados.
+- Se agrego scroll infinito a las confesiones (By Kreisler)
+- Navbar arreglado
+- Se agrego validacion en publicar confesiones para evitar flood masivo de envio de confesiones, solo una confesion cada 3 segundos.
+- Se modifico el formulario de publicacion de confesiones.
+- Se agrego validacion de genero
+- Se mejoro validaciones de las confesiones
+- Ahora la "id_conf" sera id unica
+- Se creo sistema para cambiar contraseñas en el panel administrativo.
+- Sistema de comentarios
 
-Todos los derechos reservados - Realizado por Sorac
+**Todos los derechos reservados - Realizado por Sorac**
 - Mi instagram -> https://www.instagram.com/soycarlos.co/
 - Mi tiktok -> https://tiktok.com/@soycarlos.co
 - Mi canal de twitch -> https://www.twitch.tv/elsorac_
